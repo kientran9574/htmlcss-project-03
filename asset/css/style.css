@@ -422,7 +422,7 @@ a {
 
 /* feature */
 .feature {
-    margin-top: 85px; 
+    margin-top: 85px;
     padding: 85px 0;
     /* luu y coi lai dat lai 85px */
 }
@@ -667,7 +667,7 @@ a {
 /* news */
 .news {
     margin-top: 85px 0;
-  padding: 85px 0;
+    padding: 85px 0;
 }
 
 .news__inner {
@@ -845,4 +845,129 @@ a {
     height: 60px;
     line-height: 60px;
     text-align: center;
+}
+
+/* footer */
+.footer {
+    background: #10375C;
+    padding-top: 100px;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 78px;
+}
+
+.footer__desc {
+    margin-top: 21px;
+    width: 336px;
+    color: #A9B3BB;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    /* 175% */
+}
+
+.footer__heading {
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+    /* 175% */
+}
+
+.footer__list {
+    margin-top: 20px;
+}
+
+.footer__item {
+    margin-bottom: 10px;
+}
+
+.footer__item:nth-child(2) {
+    width: 134px;
+}
+
+.footer__link {
+    display: inline-block;
+    color: #A9B3BB;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+    /* 185.714% */
+    white-space: nowrap;
+    /*  white-space: nowrap => Văn bản sẽ hiển thị trên cùng một hàng, chỉ xuống hàng khi gặp thẻ <br />. */
+}
+
+.footer__link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer__heading--bottom {
+    margin-top: 18px;
+}
+
+.social__row {
+    margin: 20px 0px 10px;
+}
+
+.social__image {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #2E80CE;
+}
+
+.social__image:hover {
+    background-color: #2E80CE;
+    color: #fff;
+}
+
+.footer__desc--bottom {
+    margin-top: 28px;
+}
+
+.form {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    color: #406181;
+    background-color: #10375C;
+}
+
+.footer__btn {
+    border-radius: 4px;
+    background: #2E80CE;
+    width: 108px;
+    height: 46px;
+    border: none;
+    outline: none;
+}
+
+.footer__line-bottom {
+    padding: 28px 0 42px;
+    border-top: 1px solid #406181;
+}
+
+.footer__copy-text {
+    color: #AAB3BA;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+    /* 185.714% */
 }
